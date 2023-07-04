@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .history-img img{
+            transition: width 1s, height 1s;
+            width: 350px;
+            height: 350px;
+        }
+        .history-img img:hover{
+            width: 393px;
+            height: 393px;
+        }
+        .contact span{
+            visibility: hidden;
+        }
+        .contact h2:hover span{
+            visibility: visible;
+        }
+        /* .off{
+            visibility: hidden;
+        }
+        .on:hover + .off{
+            visibility: visible;
+        } */
+    </style>
+</head>
+<body>
+    <div class="px-[50px]">
+        <header class="flex justify-between">
+            <div class="">
+                <h1 class="p-[30px] text-[30px] font-[600] leading-[36px]">Home</h1>
+            </div>
+            <div class="">
+                <ul>
+                    <li class="p-[30px] inline-block text-[30] font-[400] leading-[36px]"><a href="">HISTORY</a></li>
+                    <li class="p-[30px] inline-block text-[30] font-[400] leading-[36px]"><a href="">CONTACT</a></li>
+                    <li class="p-[30px] inline-block text-[30] font-[400] leading-[36px]"><a href="">BLOG</a></li>
+                    <li class="p-[30px] inline-block text-[30] font-[400] leading-[36px]"><a href="">SOCIAL</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="">
+            <img src="images/Rectangle 1.png" alt="">
+        </div>
+
+        <div class="history">
+            <h1 class="history-title text-center my-[60px] text-[30px] font-[600] leading-[36px]">HISTORY</h1>
+            <div class="history-img flex justify-between">
+                <img class="w-[30%]" src="images/Rectangle 2.png" alt="">
+                <img class="w-[30%]" src="images/Rectangle 3.png" alt="">
+                <img class="w-[30%]" src="images/Rectangle 4.png" alt="">
+            </div>
+        </div>
+
+        <div class="">
+            <h1 class="text-center my-[72px] text-[32px] font-[600] leading-[36px]">BLOG</h1>
+            <div class="grid grid-cols-[70%_auto] gap-[53px] justify-center items-center">
+                <img src="images/Rectangle 5.png" alt="">
+                <p class="">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+            </div>
+        </div>
+
+        <div class="">
+            <h1 class="text-center my-[72px] text-[32px] font-[600] leading-[36px] ">CONTACT</h1>
+            <div class="flex justify-between">
+                <div class="contact">         
+                        <h2 class="relative text-center text-[22px] font-[400] leading-[30px]">Basic English Book
+                            <span class="absolute top-[-40px] left-[4px] w-[165px] h-[40px] bg-[#000000] rounded-[5px] text-white leading-[40px]">tooltip Text</span>
+                        </h2>
+                </div>
+                <div class="contact">         
+                        <h2 class="relative text-center text-[22px] font-[400] leading-[30px]">Basic English Book
+                            <span class="absolute top-[-40px] left-[4px] w-[165px] h-[40px] bg-[#000000] rounded-[5px] text-white leading-[40px]">tooltip Text</span>
+                        </h2>
+                </div>
+                <div class="contact">         
+                        <h2 class="relative text-center text-[22px] font-[400] leading-[30px]">Basic English Book
+                            <span class="absolute top-[-40px] left-[4px] w-[165px] h-[40px] bg-[#000000] rounded-[5px] text-white leading-[40px]">tooltip Text</span>
+                        </h2>
+                </div>
+                <div class="contact">         
+                        <h2 class="relative text-center text-[22px] font-[400] leading-[30px]">Basic English Book
+                            <span class="absolute top-[-40px] left-[4px] w-[165px] h-[40px] bg-[#000000] rounded-[5px] text-white leading-[40px]">tooltip Text</span>
+                        </h2>
+                </div>
+                <div class="contact">         
+                        <h2 class="relative text-center text-[22px] font-[400] leading-[30px]">Basic English Book
+                            <span class="absolute top-[-40px] left-[4px] w-[165px] h-[40px] bg-[#000000] rounded-[5px] text-white leading-[40px]">tooltip Text</span>
+                        </h2>
+                </div>
+                <div class="contact">         
+                        <h2 class="relative text-center text-[22px] font-[400] leading-[30px]">Basic English Book
+                            <span class="absolute top-[-40px] left-[4px] w-[165px] h-[40px] bg-[#000000] rounded-[5px] text-white leading-[40px]">tooltip Text</span>
+                        </h2>
+                </div>
+               
+            </div>
+        </div>
+
+        <div class="">
+            <h1 class="text-center my-[72px] text-[32px] font-[600] leading-[36px]">SOCIAL</h1>
+            <div class="grid grid-cols-2 gap-[450px]">
+                <div class="">
+                    <h2 class="text-center mb-[28px] text-[20px] font-[400] leading-[30px]">Facebook</h2>
+                    <img src="images/Rectangle 6.png" alt="">
+                </div>
+                <div class="">
+                    <h2 class="text-center mb-[28px] text-[20px] font-[400] leading-[30px]">INSTAGRAM</h2>
+                    <img src="images/Rectangle 7.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="">
+        <span class="off w-[100px] h-[100px] bg-black text-white ">alo</span> <br>
+        <p class="on">click</p>
+    </div>
+</body>
+</html>

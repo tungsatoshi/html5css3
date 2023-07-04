@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@1,700&family=Roboto:ital,wght@0,900;1,700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Poltawski Nowy', serif;
+        }
+        .image img{
+            transition: width 1s, heigh 1s;
+            width: 257px;
+            height: 257px;
+        }   
+        .image img:hover {
+            transform: rotate(30deg);
+            width: 300px;
+            height: 300px;
+        }
+        .buy span{
+            visibility: hidden;
+        }
+        .buy h2:hover span{
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <div class="m-auto">
+        <header class="flex justify-between items-center">
+            <div class="flex items-center">
+                <div class="mr-[10px]">
+                    <img src="image/Avatar Image 2.png" alt="">
+                </div>
+                <nav>
+                    <ul>
+                        <li class="inline-block">O to</li>
+                        <li class="inline-block">Xe dien</li>
+                        <li class="inline-block">Oto</li>
+                        <li class="inline-block">Xe may</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="">
+                <input type="submit" value="Dang ky lai thu">
+                <button class="border-solid border-[1px] p-[5px]  ">Dang ky lai thu</button>
+            </div>
+        </header>
+        <section>
+            <img src="image/Rectangle 1.png" alt="">
+        </section>
+        <section class="flex justify-between gap-[50px]">
+            <article class="">
+                <div class="image">
+                    <img src="image/Instagram post - 1 (1) 3.png" alt="">
+                </div>
+                <div class="buy mt-[20px]">
+                    <h2 class="relative">Theon
+                        <span class="absolute top-[-10px] left-[20px]">buy now</span>
+                    </h2>
+                </div>
+            </article>
+            <article class="">
+                <div class="image">
+                    <img src="image/Instagram post - 1 (1) 3.png" alt="">
+                </div>
+                <h2 class="">Theon
+                    <span class="">buy now</span>
+                </h2>
+            </article>
+            <article class="">
+                <div class="image">
+                    <img src="image/Instagram post - 1 (1) 3.png" alt="">
+                </div>
+                <h2 class="">Theon
+                    <span class="">buy now</span>
+                </h2>
+            </article>
+        </section>
+    </div>
+</body>
+</html>
